@@ -13,7 +13,7 @@ public class validUserName {
         WebElement validUserNameField = driver.findElement(By.name("user-name"));
         WebElement passwordField = driver.findElement(By.name("password"));
         WebElement loginButton = driver.findElement(By.name("login-button"));
-        validUserNameField.sendKeys("secret_sauce");
+        validUserNameField.sendKeys("standard_user");
         passwordField.sendKeys("secret_sauce");
         loginButton.click();
     }
