@@ -7,14 +7,9 @@ import org.openqa.selenium.support.ui.Select;
 
 public class checkout {
     public static void main(String[] args) {
-
-        // Open Chrome
-        WebDriver driver = new ChromeDriver();
-
-        // Maximize browser
-        driver.manage().window().maximize();
-        // Open Swag Labs
-        driver.get("https://www.saucedemo.com/");
+WebDriver driver = new ChromeDriver();
+ driver.manage().window().maximize();
+      driver.get("https://www.saucedemo.com/");
         // Login
 
         // Add product to cart
